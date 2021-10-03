@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Eggi</string>
+
+    <string-array name="actions">
+        <item>Select Action</item>
+        <item>Delete</item>
+        <item>Forget</item>
+    </string-array>
+</resources>

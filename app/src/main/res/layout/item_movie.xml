@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:weightSum="10"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tv_movie_name"
+        tools:text="NAMA MOVIE"
+        android:padding="16dp"
+        android:layout_weight="6"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"/>
+
+    <!--  Untuk tugas Selection Widget Spinner, yang dimana
+      dia mengambil data entries nya dari array string bernama actions  -->
+
+    <Spinner
+        android:id="@+id/spinner_movie"
+        android:layout_gravity="center"
+        android:entries="@array/actions"
+        android:layout_width="0dp"
+        android:layout_weight="4"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
